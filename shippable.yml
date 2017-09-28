@@ -13,5 +13,5 @@ build:
     - python --version
 integrations:
   key:
-    - integrationName: sshkey
-      type: ssh-key
+    - integrationName: pemkey
+      type: pem-key
