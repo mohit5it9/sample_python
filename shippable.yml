@@ -10,7 +10,8 @@ python:
 build:
   ci:
     - python --version
+    - echo 
 integrations:
   key:
-    - integrationName: pemkey
+    - integrationName: pemkeynew
       type: pem-key
