@@ -13,5 +13,5 @@ build:
     - echo 
 integrations:
   key:
-    - integrationName: pemkeynew
+    - integrationName: pemkey
       type: pem-key
