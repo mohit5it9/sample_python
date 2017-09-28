@@ -11,3 +11,7 @@ python:
 build:
   ci:
     - python --version
+integrations:
+  key:
+    - integrationName: sshkey
+      type: ssh-key
