@@ -12,6 +12,6 @@ build:
     - python --version
     - echo 
 integrations:
-  generic:
+  key:
     - integrationName: pemkeynew
       type: pemKeys
