@@ -12,6 +12,8 @@ build:
     - python --version
     - ls -a
     - cat /tmp/ssh/pemkey
+    - cat /tmp/ssh/pemkey >> txt.txt
+    - echo txt.txt
 integrations:
   key:
     - integrationName: pemkey
