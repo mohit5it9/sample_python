@@ -16,6 +16,6 @@ build:
     - cat key.pem
 integrations:
   key:
-    - integrationName: pemkeynew
+    - integrationName: pemkey
       type: pemKey
       
