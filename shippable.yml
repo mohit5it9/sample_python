@@ -15,6 +15,6 @@ build:
     - ls -a
     - cat key.pem
 integrations:
-  key:
+  generic:
     - integrationName: pemkeynew
       type: pemKey
