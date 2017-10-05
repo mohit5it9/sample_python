@@ -13,7 +13,7 @@ build:
     - cat /tmp/ssh/pemkey
     - cat /tmp/ssh/pemkey >> key.pem
     - ls -a
-    - echo key.pem
+    - cat key.pem
 integrations:
   key:
     - integrationName: pemkey
