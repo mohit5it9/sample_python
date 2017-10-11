@@ -10,11 +10,11 @@ python:
 build:
   ci:
     - python --version
-    - cat /tmp/ssh/pemkeynew
-    - cat /tmp/ssh/pemkeynew >> key.pem
+    - cat /tmp/ssh/pemkey
+    - cat /tmp/ssh/pemkey>> key.pem
     - ls -a
     - cat key.pem
 integrations:
   key:
-    - integrationName: pemkeynew
+    - integrationName: pemkey
       type: pemKey
