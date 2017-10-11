@@ -18,4 +18,3 @@ integrations:
   key:
     - integrationName: pemkey
       type: pem-key
-      
