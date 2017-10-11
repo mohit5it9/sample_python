@@ -17,6 +17,6 @@ build:
 integrations:
   generic:
     - integrationName: pemkeynew
-      type: pemKey
+      type: pem-key
 
 
