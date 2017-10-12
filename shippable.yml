@@ -11,9 +11,11 @@ build:
   ci:
     - python --version
     - cat /tmp/ssh/pemkeynew
-    - cat /tmp/ssh/pemkeynew >> key.pem
+    - cat /tmp/ssh/pemkeynew >> amazon.pem
     - ls -a
-    - cat key.pem
+    - cat amazon.pem
+    - chmod 400 amazon.pem
+    - ssh -tt -i "amazon.pem" ubuntu@ec2-54-89-188-192.compute-1.amazonaws.com 'rm hello123.txt'
 integrations:
   key:
     - integrationName: pemkeynew
