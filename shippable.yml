@@ -20,5 +20,3 @@ integrations:
   generic:
     - integrationName: pemkeynew
       type: pemKey
-
-
