@@ -17,7 +17,7 @@ build:
     - chmod 400 amazon.pem
     - ssh -tt -i "amazon.pem" ubuntu@ec2-54-89-188-192.compute-1.amazonaws.com 'rm hello123456.txt'
 integrations:
-  key:
+  generic:
     - integrationName: pemkeynew
       type: pem-key
 
