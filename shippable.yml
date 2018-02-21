@@ -4,13 +4,13 @@ language: python
 
 # Version number
 python:
-  #- 2.6
-  #- 2.7
-  #- 3.4
+  - 2.6
+  - 2.7
+  - 3.4
   - 3.5
-  #- 3.6
-  #- pypy2
-  #- pypy3
+  - 3.6
+  - pypy2
+  - pypy3
 
 build:
   pre_ci_boot:
