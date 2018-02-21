@@ -7,7 +7,14 @@ python:
   #- 2.6
   - 3.5
 
-build:
+build:  #pre_ci_boot:
+    image_name: mohit5it9/u14pytall
+    image_tag: first
+    pull: true
+    #env: FOO=bar
+    #options: "-e HOME=/root"
+    #echo "hello"
+  # http://docs.shippable.com/ci/shippableyml/#ci
   ci:
     - python --version
     #- cat /tmp/ssh/pemkeynew
