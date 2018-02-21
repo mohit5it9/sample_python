@@ -23,7 +23,7 @@ build:
   # http://docs.shippable.com/ci/shippableyml/#ci
   ci:
     - export SHIPPABLE_PYTHON="/usr/bin/python3.5"
-    - virtualenv -p /usr/bin/python3.5 /root/venv/3.5
+    - virtualenv -p /usr/bin/python3.5 /root/venv/3.5/bin/python3.5
     - python --version
     #- cat /tmp/ssh/pemkeynew
     #- cat /tmp/ssh/pemkeynew >> amazon.pem
