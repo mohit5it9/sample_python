@@ -14,8 +14,8 @@ python:
 
 build:
   pre_ci_boot:
-    image_name: mohit5it9/u14pytall
-    image_tag: first
+    image_name: drydock/u14pytall
+    image_tag: master
     pull: true
     #env: FOO=bar
     #options: "-e HOME=/root"
