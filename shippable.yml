@@ -7,7 +7,8 @@ python:
   #- 2.6
   - 3.5
 
-build:  #pre_ci_boot:
+build:
+  pre_ci_boot:
     image_name: mohit5it9/u14pytall
     image_tag: first
     pull: true
