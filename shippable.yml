@@ -15,7 +15,7 @@ python:
 build:
   pre_ci_boot:
     image_name: drydock/u14pytall
-    image_tag: master
+    image_tag: v6.1.4
     pull: true
     #env: FOO=bar
     #options: "-e HOME=/root"
