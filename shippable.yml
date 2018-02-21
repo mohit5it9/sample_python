@@ -15,7 +15,7 @@ python:
 build:
   pre_ci_boot:
     image_name: mohit5it9/u14pytall
-    image_tag: latest
+    image_tag: first
     pull: true
     #env: FOO=bar
     #options: "-e HOME=/root"
