@@ -4,7 +4,7 @@ language: python
 
 # Version number
 python:
-  - 2.6
+  - 2.6     ## should fail as unsupported version
   - 2.7
   - 3.4
   - 3.5
@@ -22,13 +22,10 @@ build:
     #echo "hello"
   # http://docs.shippable.com/ci/shippableyml/#ci
   ci:
-    #- export SHIPPABLE_PYTHON="/usr/bin/python3.5"
-    #- virtualenv -p /usr/bin/python3.5 /root/venv/3.5/bin/python3.5
     - python --version
     - echo "$SHIPPABLE_PYTHON_VERSION"
     - echo "$SHIPPABLE_PYTHON"
     - echo "$SHIPPABLE_VE_DIR"
-    
     #- cat /tmp/ssh/pemkeynew
     #- cat /tmp/ssh/pemkeynew >> amazon.pem
     #- ls -a
