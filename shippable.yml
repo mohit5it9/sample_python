@@ -13,10 +13,10 @@ python:
   - pypy3
 
 build:
-  pre_ci_boot:
-    image_name: drydock/u14pytall
-    image_tag: master
-    pull: true
+  #pre_ci_boot:
+  #  image_name: drydock/u14pytall
+  #  image_tag: master
+  #  pull: true
     #env: FOO=bar
     #options: "-e HOME=/root"
     #echo "hello"
